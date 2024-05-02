@@ -1,0 +1,63 @@
+
+.title{
+    color: white;
+    text-align: center;
+}
+.fullscreen-content{
+    background-image:url("wp6137299.webp");
+    background-position: center;
+    background-size: cover;
+    width: 200vh;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.login-content{
+    background-color:hsla(220, 80%, 14%, 0.5);
+    padding: 50px 30px;
+    width:80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 10px;
+}
+.input label{
+    color:white;
+    font-weight: lighter;
+}
+.input input{
+    padding: 3px;
+    font-size: medium;
+    background-color:hsla(220, 80%, 14%, 0.3) ;
+    color:rgb(181, 54, 54);
+    border-radius: 2px;  
+    border-color: white; 
+}
+.input input:focus{
+    box-shadow: 0 0 0 1px hsla(220, 80%, 14%, 0.5);
+}
+.input input.success.msg, input.success.msg{
+display: block;
+}
+.input input.success .msg{
+    color: rgb(86, 172, 86);
+}
+.input input.fail .msg{
+    display: none;
+}
+.login-button{
+ width: auto;
+ padding:10px;
+ background-color: bisque;
+}
